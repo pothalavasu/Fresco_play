@@ -1,0 +1,10 @@
+#Author: Vasu
+
+Feature: homepage_search Functionality
+
+
+Scenario:Validate google search is working
+	Given browser is open
+	And user is on google search page
+	When user enter text in search box
+	Then user is navigated to search results
